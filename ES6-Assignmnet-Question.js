@@ -159,6 +159,34 @@
 //2.Convert ES6 to ES5
 
 //2.1
-const packIt = (...args) => console.log(args)
+// const packIt = (...args) => console.log(args)
+// packIt(1,2,3,5,5)
 
-packIt(1,2,3,5,5)
+// function packIt(...args) {
+//     console.log(args);
+// }
+// packIt(1,2,3,5,5)
+
+
+// 3.Guess the output 
+// 3.1
+// const hello = () => "Hello"
+// const welcome = () => "Welcome"
+// const [Hello = hello(), Welcome = welcome()] = ["Namaste"]
+// console.log(Hello, Welcome)
+//Namaste,Welcome
+
+
+//3.2
+// const obj = {
+//     aloo : 1,
+//     bhallo : 2
+// }
+
+// const {c : aloo = [2,3,4].push(5), aloo} = obj 
+
+// console.log(aloo)
+
+//error cause we trying to store value of c in aloo , where aloo is already defined
+
+

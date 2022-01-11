@@ -42,6 +42,7 @@
 
 // 6.Write program to take a month as an input from the user and find out whether the month has 31 days or not.
 // const month31OrNot=(month)=>{
+//     if(month>0&&month<13){
 //     if(month==1||month==3||month==5||month==7||month==8||month==10||month==12){
 //         return true;
 //     }
@@ -49,5 +50,9 @@
 //         return false;
 //     }
 // }
+// else{
+//     return "enter a valid month";
+// }
+// }
+// console.log(month31OrNot(15))
 
-// console.log(month31OrNot(5))

@@ -29,3 +29,8 @@ Promise.all([consoleOne, consoleTwo, consoleThree])
 .then((messages)=>{
     console.log(messages);
 })
+
+Promise.race([consoleOne, consoleTwo, consoleThree])
+.then((messages)=>{
+    console.log(messages);
+})
